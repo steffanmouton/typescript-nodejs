@@ -4,6 +4,8 @@ import pool from '../repositories/database';
 import {ApplicantData} from "../models/applicant.model";
 import {Application} from "express";
 
+//CRUD Services for the Applicant model
+
 export const getApplicantsService = async () => {
     const result = await pool.query('SELECT * FROM applicants');
     return result.rows;

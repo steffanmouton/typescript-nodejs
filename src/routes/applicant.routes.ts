@@ -3,6 +3,7 @@ import * as ApplicantController from '../controllers/applicant.controller';
 
 const router = express.Router();
 
+// Define all of our routes for applicants
 router.get('/applicants/', ApplicantController.getApplicants);
 router.get('/applicants/:id', ApplicantController.getApplicant);
 router.post('/applicants/', ApplicantController.createApplicant);

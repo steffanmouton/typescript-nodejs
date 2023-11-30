@@ -1,3 +1,6 @@
+/**
+ * This file serves to hold the interfaces that define the applicant models.
+ */
 interface Applicant {
     nameFirst: string;
     nameLast: string;

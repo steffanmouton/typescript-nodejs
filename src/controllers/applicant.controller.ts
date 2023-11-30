@@ -6,7 +6,7 @@ import {
     updateApplicantService,
     deleteApplicantService
 } from '../services/applicant.service';
-import { ApplicantData } from '../models/applicant.model'; // or applicant.model, depending on where you defined it
+import { ApplicantData } from '../models/applicant.model';
 
 // Get all applicants
 export const getApplicants = async (req: Request, res: Response) => {
