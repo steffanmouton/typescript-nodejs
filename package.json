@@ -4,8 +4,9 @@
   "description": "This is a test web server.",
   "main": "index.ts",
   "scripts": {
-    "test": "jest"
-
+    "test": "jest",
+    "seed": "ts-node seed.ts",
+    "setupDB": "ts-node setupDatabase.ts"
   },
   "keywords": [],
   "author": "",
